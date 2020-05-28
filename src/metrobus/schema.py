@@ -45,6 +45,10 @@ class VehicleNode(DjangoObjectType):
         filter_fields = ['city', 'zipcode', 'vehicle_id',]
         interfaces = (graphene.relay.Node, )
 
+    @classmethod
+    def get_queryset(cls, queryset, info):
+        return queryset.exclude(is_address_proccesed=False)
+
 
 class Query(object):
     all_trippoints = graphene.List(TripPointType)
