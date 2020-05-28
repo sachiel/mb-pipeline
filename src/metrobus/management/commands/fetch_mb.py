@@ -1,8 +1,10 @@
+import json
 import datetime
 from django.core.management.base import BaseCommand, CommandError
 
-from metrobus.models import Vehicle
+from metrobus.models import TripPoint
 from metrobus.services.cdmxapi import get_data as mb_fetch
+from metrobus.services.gmapsapi import get_address, process_address
 
 
 class Command(BaseCommand):
@@ -16,7 +18,7 @@ class Command(BaseCommand):
             raise CommandError("Can't retrieve data from CDMX API")
 
         for record in mb_data:
-            obj, created = Vehicle.objects.get_or_create(
+            obj, created = TripPoint.objects.get_or_create(
                     record_id=record['recordid'],
             )
 
@@ -41,4 +43,40 @@ class Command(BaseCommand):
                 obj.date_updated = fields.get('date_updated', None)
 
                 obj.save()
+
+                try:
+                    obj.cdmxapi_data = record
+                    obj.save()
+                except Exception as e:
+                    pass
+
+                geodata = ''
+                try:
+                    geodata = get_address(
+                        obj.position_latitude, 
+                        obj.position_longitude,
+                    )
+                except Exception as e:
+                    pass
+
+                if geodata:
+                    obj.georeverse_data = geodata
+                    obj.is_georeversed = True
+                    obj.save()
+
+                    address = None
+
+                    try:
+                        address = process_address(geodata)
+                    except Exception as e:
+                        pass
+
+                    if address:
+                        obj.address = address['address']
+                        obj.zipcode = address['zipcode']
+                        obj.county = address['county']
+                        obj.city = address['city']
+                        obj.is_address_proccesed = True
+
+                        obj.save()
 

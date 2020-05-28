@@ -1,0 +1,722 @@
+{
+  "plus_code": {
+    "compound_code": "CVJM+RX Mexico City, CDMX, Mexico",
+    "global_code": "76F2CVJM+RX"
+  },
+  "results": [
+    {
+      "access_points": [],
+      "address_components": [
+        {
+          "long_name": "67",
+          "short_name": "67",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Eje Vial 3 Oriente",
+          "short_name": "Eje 3 Ote",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Escuela de Tiro",
+          "short_name": "Escuela de Tiro",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "Ciudad de M\\u00e9xico",
+          "short_name": "M\\u00e9xico D.F.",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Ciudad de M\\u00e9xico",
+          "short_name": "CDMX",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Mexico",
+          "short_name": "MX",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "15380",
+          "short_name": "15380",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Eje 3 Ote 67, Escuela de Tiro, Venustiano Carranza, 15380 Ciudad de M\\u00e9xico, CDMX, Mexico",
+      "geometry": {
+        "location": {
+          "lat": 19.432153,
+          "lng": -99.1150478
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 19.4335019802915,
+            "lng": -99.11369881970849
+          },
+          "southwest": {
+            "lat": 19.4308040197085,
+            "lng": -99.1163967802915
+          }
+        }
+      },
+      "place_id": "ChIJe-XR4rL-0YUROjHlzgPpF3g",
+      "plus_code": {
+        "compound_code": "CVJM+VX Mexico City, Mexico",
+        "global_code": "76F2CVJM+VX"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "access_points": [],
+      "address_components": [
+        {
+          "long_name": "Avenida Ingeniero Eduardo Molina - Metro San L\\u00e1zaro",
+          "short_name": "Avenida Ingeniero Eduardo Molina - Metro San L\\u00e1zaro",
+          "types": [
+            "establishment",
+            "point_of_interest",
+            "transit_station"
+          ]
+        },
+        {
+          "long_name": "10 de Mayo",
+          "short_name": "10 de Mayo",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "Ciudad de M\\u00e9xico",
+          "short_name": "M\\u00e9xico D.F.",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Ciudad de M\\u00e9xico",
+          "short_name": "CDMX",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Mexico",
+          "short_name": "MX",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Avenida Ingeniero Eduardo Molina - Metro San L\\u00e1zaro, 10 de Mayo, Ciudad de M\\u00e9xico, CDMX, Mexico",
+      "geometry": {
+        "location": {
+          "lat": 19.4321207,
+          "lng": -99.1153203
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 19.4334696802915,
+            "lng": -99.11397131970848
+          },
+          "southwest": {
+            "lat": 19.4307717197085,
+            "lng": -99.1166692802915
+          }
+        }
+      },
+      "place_id": "ChIJf8AsA7P-0YURSjyJfhnIiWQ",
+      "plus_code": {
+        "compound_code": "CVJM+RV Mexico City, Mexico",
+        "global_code": "76F2CVJM+RV"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "transit_station"
+      ]
+    },
+    {
+      "access_points": [],
+      "address_components": [
+        {
+          "long_name": "31",
+          "short_name": "31",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Avenida Ingeniero Eduardo Molina",
+          "short_name": "Eje 3 Ote",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Escuela de Tiro",
+          "short_name": "Escuela de Tiro",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "Ciudad de M\\u00e9xico",
+          "short_name": "M\\u00e9xico D.F.",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Ciudad de M\\u00e9xico",
+          "short_name": "CDMX",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Mexico",
+          "short_name": "MX",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "15380",
+          "short_name": "15380",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Eje 3 Ote 31, Escuela de Tiro, Venustiano Carranza, 15380 Ciudad de M\\u00e9xico, CDMX, Mexico",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 19.4326632,
+            "lng": -99.11504269999999
+          },
+          "southwest": {
+            "lat": 19.4319127,
+            "lng": -99.1150713
+          }
+        },
+        "location": {
+          "lat": 19.432288,
+          "lng": -99.115057
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 19.4336369302915,
+            "lng": -99.11370801970848
+          },
+          "southwest": {
+            "lat": 19.4309389697085,
+            "lng": -99.11640598029149
+          }
+        }
+      },
+      "place_id": "ChIJEc7w4rL-0YUR8FYpsBf9ee4",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "access_points": [],
+      "address_components": [
+        {
+          "long_name": "94",
+          "short_name": "94",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Eje Vial 3 Oriente",
+          "short_name": "Eje 3 Ote",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "10 de Mayo",
+          "short_name": "10 de Mayo",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "Ciudad de M\\u00e9xico",
+          "short_name": "M\\u00e9xico D.F.",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Ciudad de M\\u00e9xico",
+          "short_name": "CDMX",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Mexico",
+          "short_name": "MX",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "15380",
+          "short_name": "15380",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Eje 3 Ote 94, 10 de Mayo, Venustiano Carranza, 15380 Ciudad de M\\u00e9xico, CDMX, Mexico",
+      "geometry": {
+        "location": {
+          "lat": 19.4334058,
+          "lng": -99.1151155
+        },
+        "location_type": "RANGE_INTERPOLATED",
+        "viewport": {
+          "northeast": {
+            "lat": 19.4347547802915,
+            "lng": -99.11376651970849
+          },
+          "southwest": {
+            "lat": 19.4320568197085,
+            "lng": -99.11646448029151
+          }
+        }
+      },
+      "place_id": "Ek5FamUgMyBPdGUgOTQsIDEwIGRlIE1heW8sIFZlbnVzdGlhbm8gQ2FycmFuemEsIENpdWRhZCBkZSBNw6l4aWNvLCBDRE1YLCBNZXhpY28iGhIYChQKEgmbCYnfsv7RhRFIUTexT2lZMBBe",
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "access_points": [],
+      "address_components": [
+        {
+          "long_name": "Escuela de Tiro",
+          "short_name": "Escuela de Tiro",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "Ciudad de M\\u00e9xico",
+          "short_name": "M\\u00e9xico D.F.",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Ciudad de M\\u00e9xico",
+          "short_name": "CDMX",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Mexico",
+          "short_name": "MX",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Escuela de Tiro, Ciudad de M\\u00e9xico, CDMX, Mexico",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 19.4343928,
+            "lng": -99.1102811
+          },
+          "southwest": {
+            "lat": 19.431936,
+            "lng": -99.1152754
+          }
+        },
+        "location": {
+          "lat": 19.4333119,
+          "lng": -99.11345120000001
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 19.4345133802915,
+            "lng": -99.1102811
+          },
+          "southwest": {
+            "lat": 19.4318154197085,
+            "lng": -99.1152754
+          }
+        }
+      },
+      "place_id": "ChIJpz_CobL-0YURxpgzSNC4lNY",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_1"
+      ]
+    },
+    {
+      "access_points": [],
+      "address_components": [
+        {
+          "long_name": "15380",
+          "short_name": "15380",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "Escuela de Tiro",
+          "short_name": "Escuela de Tiro",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "Ciudad de M\\u00e9xico",
+          "short_name": "M\\u00e9xico D.F.",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Ciudad de M\\u00e9xico",
+          "short_name": "CDMX",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Mexico",
+          "short_name": "MX",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Escuela de Tiro, 15380 Ciudad de M\\u00e9xico, CDMX, Mexico",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 19.4343361,
+            "lng": -99.1104222
+          },
+          "southwest": {
+            "lat": 19.4319027,
+            "lng": -99.1152692
+          }
+        },
+        "location": {
+          "lat": 19.4333119,
+          "lng": -99.11345120000001
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 19.4344683802915,
+            "lng": -99.1104222
+          },
+          "southwest": {
+            "lat": 19.4317704197085,
+            "lng": -99.1152692
+          }
+        }
+      },
+      "place_id": "ChIJzdg3orL-0YUR-dumJbnrqz0",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "access_points": [],
+      "address_components": [
+        {
+          "long_name": "Venustiano Carranza",
+          "short_name": "Venustiano Carranza",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Mexico City",
+          "short_name": "M\\u00e9xico D.F.",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Mexico City",
+          "short_name": "CDMX",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Mexico",
+          "short_name": "MX",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Venustiano Carranza, Mexico City, CDMX, Mexico",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 19.4597823,
+            "lng": -99.0464588
+          },
+          "southwest": {
+            "lat": 19.4043305,
+            "lng": -99.1281996
+          }
+        },
+        "location": {
+          "lat": 19.4306069,
+          "lng": -99.0949899
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 19.4597823,
+            "lng": -99.0464588
+          },
+          "southwest": {
+            "lat": 19.4043305,
+            "lng": -99.1281996
+          }
+        }
+      },
+      "place_id": "ChIJk5h4Dwb80YURa1QhnRN0E8Q",
+      "types": [
+        "administrative_area_level_3",
+        "political"
+      ]
+    },
+    {
+      "access_points": [],
+      "address_components": [
+        {
+          "long_name": "Mexico City",
+          "short_name": "M\\u00e9xico D.F.",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Mexico City",
+          "short_name": "CDMX",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Mexico",
+          "short_name": "MX",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Mexico City, CDMX, Mexico",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 19.5927571,
+            "lng": -98.9604482
+          },
+          "southwest": {
+            "lat": 19.1887101,
+            "lng": -99.3267771
+          }
+        },
+        "location": {
+          "lat": 19.4326077,
+          "lng": -99.133208
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 19.5927571,
+            "lng": -98.9604482
+          },
+          "southwest": {
+            "lat": 19.1887101,
+            "lng": -99.3267771
+          }
+        }
+      },
+      "place_id": "ChIJB3UJ2yYAzoURQeheJnYQBlQ",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "access_points": [],
+      "address_components": [
+        {
+          "long_name": "Mexico City",
+          "short_name": "CDMX",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Mexico",
+          "short_name": "MX",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Mexico City, Mexico",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 19.5927571,
+            "lng": -98.94030269999999
+          },
+          "southwest": {
+            "lat": 19.0482366,
+            "lng": -99.36492419999999
+          }
+        },
+        "location": {
+          "lat": 19.2464696,
+          "lng": -99.1013498
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 19.5927571,
+            "lng": -98.94030269999999
+          },
+          "southwest": {
+            "lat": 19.0482366,
+            "lng": -99.36492419999999
+          }
+        }
+      },
+      "place_id": "ChIJJyk1sTYAzoURW4rR6E6e_d4",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "access_points": [],
+      "address_components": [
+        {
+          "long_name": "Mexico",
+          "short_name": "MX",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Mexico",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 32.7186534,
+            "lng": -86.5887
+          },
+          "southwest": {
+            "lat": 14.3895,
+            "lng": -118.6523001
+          }
+        },
+        "location": {
+          "lat": 23.634501,
+          "lng": -102.552784
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 32.7186534,
+            "lng": -86.5887
+          },
+          "southwest": {
+            "lat": 14.3895,
+            "lng": -118.6523001
+          }
+        }
+      },
+      "place_id": "ChIJU1NoiDs6BIQREZgJa760ZO0",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ],
+  "status": "OK"
+}

@@ -1,9 +1,11 @@
 from django.contrib import admin
 
-from .models import Vehicle
+from .models import TripPoint
 
 
-@admin.register(Vehicle)
-class VehicleAdmin(admin.ModelAdmin):
-    pass
+@admin.register(TripPoint)
+class TripPointAdmin(admin.ModelAdmin):
+    list_display = ['id', 'vehicle_id', 'is_georeversed',
+                    'is_address_proccesed', 'address', 'zipcode', 'county',
+                    'city', 'position_latitude', 'position_longitude']
 

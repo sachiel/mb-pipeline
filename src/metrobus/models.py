@@ -1,12 +1,14 @@
+import jsonfield
+
 from django.db import models
 
 from app.models import BaseModel
 
 
-class Vehicle(BaseModel):
+class TripPoint(BaseModel):
     class Meta:
-        verbose_name = "Vehicle"
-        verbose_name_plural = "Vehicles"
+        verbose_name = "Vehicle Trip Point"
+        verbose_name_plural = "Vehicle Trip Point"
 
     def __str__(self):
         return "{}".format(
@@ -38,6 +40,15 @@ class Vehicle(BaseModel):
     trip_start_date = models.DateField('Start Trip Date', blank=True, null=True)
     date_updated = models.DateTimeField('Record Update', blank=True, null=True)
 
+    address = models.CharField('Address', max_length=256, default='', blank=True)
+    zipcode = models.CharField('Zip', max_length=32, default='', blank=True)
+    county = models.CharField('County', max_length=128, default='', blank=True)
+    city = models.CharField('City', max_length=128, default='', blank=True)
+
     is_georeversed = models.BooleanField('Is georeversed?', default=False)
+    is_address_proccesed = models.BooleanField('Is Address Processed?', default=False)
+
+    georeverse_data = jsonfield.JSONField(blank=True, null=True)
+    cdmxapi_data = jsonfield.JSONField(blank=True, null=True)
 
 
