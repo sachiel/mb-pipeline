@@ -1,0 +1,3 @@
+*/10 * * * * python /usr/src/app/src/manage.py fetch_mb
+# An empty line is required at the end of this file for a valid cron file.
+

@@ -15,7 +15,6 @@ class TripPoint(BaseModel):
             self.vehicle_label
         )
 
-
     record_id = models.CharField('Record ID', max_length=128)
     vehicle_id = models.CharField('Vehicle ID', max_length=64, default="", blank=True)
     trip_id = models.CharField('Trip ID', max_length=64, default="", blank=True)

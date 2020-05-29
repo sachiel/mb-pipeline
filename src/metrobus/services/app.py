@@ -4,13 +4,11 @@ from metrobus.models import TripPoint
 
 
 def get_all_cities():
-    """
-    return [
-        {"name": "Uno"},
-        {"name": "Dos"},
-        {"name": "Tres"},
-        {"name": "Cuarenta"},
-    ]
+    """ Search in database all cities availables, return a list:
+        [
+            {"name": "Benito Juarez"},
+            ...
+        ]
     """
     
     objects_list = TripPoint.objects.filter(
@@ -21,13 +19,11 @@ def get_all_cities():
 
 
 def get_all_vehicles():
-    """
-    return [
-        {"name": "Uno"},
-        {"name": "Dos"},
-        {"name": "Tres"},
-        {"name": "Cuarenta"},
-    ]
+    """ Search in database all vehicles availables, return a list:
+        [
+            {"id": "1234", "label": "5678"},
+            ...
+        ]
     """
     objects_list = TripPoint.objects.filter(
         is_address_proccesed=True

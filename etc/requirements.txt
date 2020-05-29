@@ -10,7 +10,6 @@ graphene-django==2.10.1
 graphql-core==2.3.2
 graphql-relay==2.0.1
 idna==2.9
-pkg-resources==0.0.0
 promise==2.3
 pytz==2020.1
 requests==2.23.0

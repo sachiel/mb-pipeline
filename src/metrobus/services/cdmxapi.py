@@ -4,6 +4,9 @@ from app.settings import MBAPI_URL
 
 
 def get_data():
+    """ Get response from CDMX API from metrobus location points and return a dict
+    https://datos.cdmx.gob.mx/explore/dataset/prueba_fetchdata_metrobus/api/?rows=5
+    """
     json_data = None
     records = None
 
